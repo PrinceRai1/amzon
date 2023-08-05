@@ -1,0 +1,18 @@
+:root{
+    --black: #343434;
+    --bg: #F8E367;
+    --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
+    --shadow2:  0px 13px 46px rgba(0, 0, 0, 0.13);
+    --pink: #FE956F;
+} 
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    transition: all 3ms ease;
+    color: var(--black);
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    background-color: #F8E367;
+}

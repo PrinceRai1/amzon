@@ -1,0 +1,29 @@
+.bouncebg{
+    animation: bounce1 1s ;
+    transition: all;
+}
+@keyframes bounce1{
+    0% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+.hero{
+  animation: bounce2 1s ;
+  transition: all;
+}
+@keyframes bounce2{
+  0% {
+    transform: translateY(50%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
